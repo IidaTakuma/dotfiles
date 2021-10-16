@@ -6,7 +6,8 @@
 # initialize:
 # 	@$(foreach val, $(wildcard ./etc/init/*.sh), bash $(val);)
 
-# brew:
+brew:
+	brew bundle install
 
 # set symbolic file DOTFILES_TARGET
 # symbolic:
