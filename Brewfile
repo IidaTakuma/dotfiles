@@ -24,7 +24,6 @@ cask 'google-chrome'
 cask 'ngrok'
 cask 'slack'
 cask 'visual-studio-code'
-cask 'zoom'
 
 # mas
 mas 'Xcode', id: 497_799_835
