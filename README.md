@@ -12,3 +12,17 @@ git clone https://github.com/IidaTakuma/dotfiles
 cd dotfiles
 make initialize
 ```
+
+## brew
+
+Install
+
+```
+brew bundle install
+```
+
+Cleanup
+
+```
+brew bundle cleanup -- force
+```

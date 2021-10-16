@@ -1,0 +1,34 @@
+{
+    // 保存 ===
+    "editor.formatOnSave": true,                  // 自動フォーマット
+    "files.insertFinalNewline": true,             // 最終行に改行を自動挿入
+
+    // 表示 ===
+    "editor.wordWrap": "on",                      // 折り返し表示
+    "breadcrumbs.enabled": true,                  // パンくずリストの表示
+    "editor.copyWithSyntaxHighlighting": false,   // 書式設定なしでテキストをコピー
+
+    // 拡張機能 ===
+    "extensions.ignoreRecommendations": false,    // 検索時のレコメンドオフ
+    "workbench.iconTheme": "vscode-icons",
+    "vsicons.dontShowNewVersionMessage": true,
+    "sync.gist": "f4ff5d42916313a016158d5b32b86502",
+
+    // ruby ===
+    "ruby.format": "rubocop",                     // 自動整形
+    "[ruby]": {
+        "editor.tabSize": 2,
+    },
+    "ruby.lint": {                                // Linterが有効
+    "rubocop": true
+    },
+    "workbench.colorTheme": "Tokyo Night Storm",
+    "terminal.integrated.defaultProfile.osx": "fish",
+    "workbench.editor.untitled.hint": "hidden",
+    "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.fontFamily": "'Fira Code'"
+}
+
+// 参考
+// https://qiita.com/sensuikan1973/items/74cf5383c02dbcd82234 // VSCode全般
+// https://qiita.com/hakshu/items/98ed12c32da97474b68d // Ruby関連
