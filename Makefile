@@ -1,19 +1,18 @@
 DOTFILES_EXCLUDES := .DS_Store .git .vscode
 DOTFILES_TARGET   := $(filter-out $(DOTFILES_EXCLUDES), $(wildcard .??*) bin)
-# DOTFILES_DIR      := $(PWD)
-# VSCODE_SETTING_DIR=~/Library/Application\ Support/Code/User
+VSCODE_SETTING_DIR=~/Library/Application\ Support/Code/User
 
-# initialize:
-# 	@$(foreach val, $(wildcard ./etc/init/*.sh), bash $(val);)
+# Install from Homebrew
 .PHONY: brew
 brew:
 	brew bundle install
 
-# set symbolic file DOTFILES_TARGET
+# Set Symbolic file
 .PHONY: symbolic
 symbolic:
 	@$(foreach val, $(DOTFILES_TARGET), ln -sfnv $(abspath $(val)) $(HOME)/$(val);)
 
+# Setting VSCode Configration
 # vscode:
 # 	rm "$VSCODE_SETTING_DIR/settings.json"
 # 	ln -s "$SCRIPT_DIR/settings.json" "${VSCODE_SETTING_DIR}/settings.json"
