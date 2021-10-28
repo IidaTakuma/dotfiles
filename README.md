@@ -1,28 +1,21 @@
 # dotfiles
 
-🛠 my .files
+🛠 my .files for MacOS 🛠
+
+## Requirements
+
+- Command Line Developer Tools
 
 ## Installation
+
+Clone this repository
 
 ```bash
 git clone https://github.com/IidaTakuma/dotfiles
 ```
 
+Run Make task
+
 ```bash
-cd dotfiles
-make initialize
-```
-
-## brew
-
-Install
-
-```
-brew bundle install
-```
-
-Cleanup
-
-```
-brew bundle cleanup -- force
+cd dotfiles && make init
 ```
