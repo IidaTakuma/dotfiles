@@ -24,6 +24,3 @@ cask 'google-chrome'
 cask 'ngrok'
 cask 'slack'
 cask 'visual-studio-code'
-
-# mas
-mas 'Xcode', id: 497_799_835
