@@ -26,7 +26,7 @@
     "terminal.integrated.defaultProfile.osx": "fish",
     "workbench.editor.untitled.hint": "hidden",
     "explorer.confirmDragAndDrop": false,
-    "terminal.integrated.fontFamily": "'Fira Code'"
+    "terminal.integrated.fontFamily": "'FiraCode Nerd Font'"
 }
 
 // 参考
