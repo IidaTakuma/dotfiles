@@ -4,6 +4,7 @@ tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/core'
 tap 'homebrew/services'
+tap 'heroku/brew'
 
 # brew
 brew 'ffmpeg'
@@ -15,6 +16,7 @@ brew 'postgresql'
 brew 'pyenv'
 brew 'rbenv'
 brew 'yarn'
+brew 'heroku'
 
 # cask
 cask 'discord'
