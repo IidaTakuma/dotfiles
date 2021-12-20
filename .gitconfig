@@ -1,3 +1,10 @@
 [user]
         name=IidaTakuma
         email=ta9maxxx@gmail.com
+[init]
+	defaultBranch = master
+[color]
+	ui = true
+[core]
+	editor = code --wait
+	quotepath = false
