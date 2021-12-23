@@ -1,11 +1,11 @@
+[core]
+	editor = code --wait
+	excludesfile = ~/.gitignore_global
+	quotepath = false # 日本語ファイル名をエスケープしない
 [user]
-        name=IidaTakuma
-        email=ta9maxxx@gmail.com
+	name=IidaTakuma
+	email=ta9maxxx@gmail.com
 [init]
 	defaultBranch = master
 [color]
 	ui = true
-[core]
-	editor = code --wait
-    excludefile = ~/.gitignore_global
-	quotepath = false # 日本語ファイル名をエスケープしない
