@@ -7,4 +7,5 @@
 	ui = true
 [core]
 	editor = code --wait
-	quotepath = false
+    excludefile = ~/.gitignore_global
+	quotepath = false # 日本語ファイル名をエスケープしない
