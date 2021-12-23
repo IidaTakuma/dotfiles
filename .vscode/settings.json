@@ -20,14 +20,15 @@
         "editor.tabSize": 2,
     },
     "ruby.lint": {                                // Linterが有効
-    "rubocop": true
+        "rubocop": true
     },
     "workbench.colorTheme": "Tokyo Night Storm",
     "terminal.integrated.defaultProfile.osx": "fish",
     "workbench.editor.untitled.hint": "hidden",
     "explorer.confirmDragAndDrop": false,
     "terminal.integrated.fontFamily": "'FiraCode Nerd Font'",
-    "editor.minimap.enabled": false
+    "editor.minimap.enabled": false,
+    "terminal.integrated.scrollback": 50000 // 組み込みTerminalの行数
 }
 
 // 参考
