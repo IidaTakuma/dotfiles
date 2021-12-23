@@ -19,7 +19,6 @@ brew 'yarn'
 # cask
 cask 'discord'
 cask 'docker'
-cask 'font-fira-code-nerd-font'
 cask 'google-chrome'
 cask 'ngrok'
 cask 'slack'
