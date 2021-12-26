@@ -3,10 +3,10 @@
 set -u
 
 VSCODE_SETTING_DIR="${HOME}/Library/Application Support/Code/User"
+echo "vscode_setting_dir: $VSCODE_SETTING_DIR"
 
-# 実行中のシェルスクリプトのあるディレクトリを起点に .vscode ディレクトリに移動
 SCRIPT_DIR=$(cd $(dirname $0)/../.vscode && pwd)
-echo $SCRIPT_DIR
+echo "script_dir: $SCRIPT_DIR"
 
 rm "$VSCODE_SETTING_DIR/settings.json"
 ln -s "${SCRIPT_DIR}/settings.json" "${VSCODE_SETTING_DIR}/settings.json"
@@ -18,7 +18,6 @@ cd $SCRIPT_DIR
 
 cat extensions | while read line
 do
-    echo $line
     code --install-extension $line
 done
 
