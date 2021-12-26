@@ -11,11 +11,15 @@
 Clone this repository
 
 ```bash
+# Clone this repository
 git clone https://github.com/IidaTakuma/dotfiles
-```
 
-Run Make task
+# Make synbolic link
+./install.sh
 
-```bash
-cd dotfiles && make init
+# Install brew
+./etc/install_brew.sh
+
+# Install vscode
+./etc/install_vscode.sh
 ```
