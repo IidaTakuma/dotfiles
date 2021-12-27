@@ -28,7 +28,8 @@
     "explorer.confirmDragAndDrop": false,
     "terminal.integrated.fontFamily": "Fira Code",
     "editor.minimap.enabled": false,
-    "terminal.integrated.scrollback": 50000 // 組み込みTerminalの行数
+    "terminal.integrated.scrollback": 50000, // 組み込みTerminalの行数
+    "markdown.preview.fontSize": 12
 }
 
 // 参考
