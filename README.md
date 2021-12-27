@@ -23,3 +23,6 @@ git clone https://github.com/IidaTakuma/dotfiles
 # Install vscode
 ./etc/install_vscode.sh
 ```
+
+## License
+MIT License. See LICENSE.txt for more information.
