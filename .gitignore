@@ -1,0 +1,8 @@
+
+# *.DS_Store
+
+# .config/fish/*
+# !.config/fish/config.fish
+
+# .ssh/
+# .aws/
