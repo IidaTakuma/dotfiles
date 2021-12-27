@@ -37,6 +37,7 @@ formulas=(
     ffmpeg
     figlet
     fish
+    font-fira-code
     httpie
     imagemagick
     postgresql
