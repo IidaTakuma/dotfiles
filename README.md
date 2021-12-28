@@ -8,8 +8,6 @@
 
 ## Installation
 
-Clone this repository
-
 ```bash
 # Clone this repository
 git clone https://github.com/IidaTakuma/dotfiles
@@ -19,6 +17,9 @@ git clone https://github.com/IidaTakuma/dotfiles
 
 # Install brew
 ./etc/install_brew.sh
+
+# Install fisher
+./etc/install_fisher.sh
 
 # Install vscode
 ./etc/install_vscode.sh
