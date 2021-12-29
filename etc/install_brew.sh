@@ -56,6 +56,7 @@ casks=(
     discord
     docker
     google-chrome
+    karabiner-elements
     ngrok
     postman
     slack
