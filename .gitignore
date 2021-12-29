@@ -4,8 +4,7 @@
 .config/fish/*
 !.config/fish/config.fish
 
-.config/karabiner/*
-!.config/karabiner/assets/*
-!.config/karabiner/karabiner.json
+.config/karabiner/automatic_backups
+
 .ssh/
 .aws/
