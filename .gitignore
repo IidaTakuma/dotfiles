@@ -1,8 +1,11 @@
 
-# *.DS_Store
+*.DS_Store
 
-# .config/fish/*
-# !.config/fish/config.fish
+.config/fish/*
+!.config/fish/config.fish
 
-# .ssh/
-# .aws/
+.config/karabiner/*
+!.config/karabiner/assets/*
+!.config/karabiner/karabiner.json
+.ssh/
+.aws/
