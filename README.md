@@ -26,4 +26,4 @@ git clone https://github.com/IidaTakuma/dotfiles
 ```
 
 ## License
-MIT License. See LICENSE.txt for more information.
+MIT License. See LICENSE for more information.
