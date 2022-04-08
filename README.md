@@ -12,7 +12,7 @@
 # Clone this repository
 git clone https://github.com/IidaTakuma/dotfiles
 
-# Make sybolic link
+# Make symbolic link
 ./install.sh
 
 # Install brew
