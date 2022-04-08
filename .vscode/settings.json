@@ -1,35 +1,35 @@
 {
-    // 保存 ===
-    "editor.formatOnSave": true,                  // 自動フォーマット
-    "files.insertFinalNewline": true,             // 最終行に改行を自動挿入
+  // 保存 ===
+  "editor.formatOnSave": true, // 自動フォーマット
+  "files.insertFinalNewline": true, // 最終行に改行を自動挿入
 
-    // 表示 ===
-    "editor.wordWrap": "on",                      // 折り返し表示
-    "breadcrumbs.enabled": true,                  // パンくずリストの表示
-    "editor.copyWithSyntaxHighlighting": false,   // 書式設定なしでテキストをコピー
+  // 表示 ===
+  "editor.wordWrap": "on", // 折り返し表示
+  "breadcrumbs.enabled": true, // パンくずリストの表示
+  "editor.copyWithSyntaxHighlighting": false, // 書式設定なしでテキストをコピー
 
-    // 拡張機能 ===
-    "extensions.ignoreRecommendations": false,    // 検索時のレコメンドオフ
-    "workbench.iconTheme": "vscode-icons",
-    "vsicons.dontShowNewVersionMessage": true,
-    "sync.gist": "f4ff5d42916313a016158d5b32b86502",
+  // 拡張機能 ===
+  "extensions.ignoreRecommendations": false, // 検索時のレコメンドオフ
+  "workbench.iconTheme": "vscode-icons",
+  "vsicons.dontShowNewVersionMessage": true,
 
-    // ruby ===
-    "ruby.format": "rubocop",                     // 自動整形
-    "[ruby]": {
-        "editor.tabSize": 2,
-    },
-    "ruby.lint": {                                // Linterが有効
-        "rubocop": true
-    },
-    "workbench.colorTheme": "Tokyo Night Storm",
-    "terminal.integrated.defaultProfile.osx": "fish",
-    "workbench.editor.untitled.hint": "hidden",
-    "explorer.confirmDragAndDrop": false,
-    "terminal.integrated.fontFamily": "Fira Code",
-    "editor.minimap.enabled": false,
-    "terminal.integrated.scrollback": 50000, // 組み込みTerminalの行数
-    "markdown.preview.fontSize": 12
+  // ruby ===
+  "ruby.format": "rubocop", // 自動整形
+  "[ruby]": {
+    "editor.tabSize": 2
+  },
+  "ruby.lint": {
+    // Linterが有効
+    "rubocop": true
+  },
+  "workbench.colorTheme": "Tokyo Night Storm",
+  "terminal.integrated.defaultProfile.osx": "fish",
+  "workbench.editor.untitled.hint": "hidden",
+  "explorer.confirmDragAndDrop": false,
+  "terminal.integrated.fontFamily": "Fira Code",
+  "editor.minimap.enabled": false,
+  "terminal.integrated.scrollback": 50000, // 組み込みTerminalの行数
+  "markdown.preview.fontSize": 12
 }
 
 // 参考

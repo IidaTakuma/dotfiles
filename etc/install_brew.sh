@@ -34,6 +34,9 @@ done
 
 # install formulas
 formulas=(
+    git
+    curl
+    jq
     ffmpeg
     figlet
     fish
@@ -43,6 +46,7 @@ formulas=(
     postgresql
     pyenv
     rbenv
+    nodenv
     yarn
 )
 
