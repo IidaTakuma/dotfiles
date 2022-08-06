@@ -29,7 +29,17 @@
   "terminal.integrated.fontFamily": "Fira Code",
   "editor.minimap.enabled": false,
   "terminal.integrated.scrollback": 50000, // 組み込みTerminalの行数
-  "markdown.preview.fontSize": 12
+  "markdown.preview.fontSize": 12,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "editor.accessibilitySupport": "on",
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "files.exclude": {
+    "**/.git": false
+  },
+  "remote.downloadExtensionsLocally": true,
+  "bracketPairColorizer.depreciation-notice": false
 }
 
 // 参考
