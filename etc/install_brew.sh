@@ -39,15 +39,16 @@ formulas=(
     jq
     ffmpeg
     figlet
-    fish
     font-fira-code
     httpie
     imagemagick
-    postgresql
     pyenv
     rbenv
     nodenv
     yarn
+    zsh-autosuggestions
+    zsh-completions
+    zsh-git-prompt
 )
 
 echo 'Running brew install formulas...'

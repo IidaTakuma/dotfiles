@@ -26,5 +26,15 @@
       "key": "cmd+[",
       "command": "workbench.action.previousPanelView",
       "when": "panelFocus"
+    },
+    {
+      "key": "ctrl+]",
+      "command": "workbench.action.terminal.focusNext",
+      "when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
+    },
+    {
+      "key": "shift+cmd+]",
+      "command": "-workbench.action.terminal.focusNext",
+      "when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
     }
   ]

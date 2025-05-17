@@ -2,31 +2,24 @@
   // 保存 ===
   "editor.formatOnSave": true, // 自動フォーマット
   "files.insertFinalNewline": true, // 最終行に改行を自動挿入
-
   // 表示 ===
   "editor.wordWrap": "on", // 折り返し表示
   "breadcrumbs.enabled": true, // パンくずリストの表示
   "editor.copyWithSyntaxHighlighting": false, // 書式設定なしでテキストをコピー
-
+  "editor.stickyScroll.enabled": false,
   // 拡張機能 ===
   "extensions.ignoreRecommendations": false, // 検索時のレコメンドオフ
   "workbench.iconTheme": "vscode-icons",
   "vsicons.dontShowNewVersionMessage": true,
 
-  // ruby ===
-  "ruby.format": "rubocop", // 自動整形
   "[ruby]": {
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "Shopify.ruby-lsp"
   },
-  "ruby.lint": {
-    // Linterが有効
-    "rubocop": true
-  },
-  "workbench.colorTheme": "Tokyo Night Storm",
-  "terminal.integrated.defaultProfile.osx": "fish",
-  "workbench.editor.untitled.hint": "hidden",
+  "workbench.colorTheme": "GitHub Dark",
+  "terminal.integrated.defaultProfile.osx": "zsh",
   "explorer.confirmDragAndDrop": false,
-  "terminal.integrated.fontFamily": "Fira Code",
+  "terminal.integrated.fontFamily": "'Fira Code'",
   "editor.minimap.enabled": false,
   "terminal.integrated.scrollback": 50000, // 組み込みTerminalの行数
   "markdown.preview.fontSize": 12,
@@ -35,13 +28,94 @@
   },
   "editor.accessibilitySupport": "on",
   "terminal.integrated.enableMultiLinePasteWarning": false,
+  "explorer.confirmDelete": false,
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.editor.openPositioning": "last",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "[terraform]": {
+    "editor.tabSize": 2
+  },
+  "[javascript]": {
+    "editor.tabSize": 2
+  },
+  "[typescript]": {
+    "editor.tabSize": 2
+  },
+  "[dockerfile]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.tabSize": 2
+  },
+  "[json]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  },
+  "[yaml]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "keep",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    }
+  },
+  "[yml]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  },
+  "[github-actions-workflow]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  },
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "go": false,
+    "rust": false,
+    "toml": false
+  },
+  "liveServer.settings.donotVerifyTags": true,
   "files.exclude": {
     "**/.git": false
   },
+  "workbench.editor.empty.hint": "hidden",
+  "git.openRepositoryInParentFolders": "never",
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "window.zoomLevel": -1,
+  "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": false,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "explorer.confirmPasteNative": false,
+  "terminal.integrated.allowedLinkSchemes": [
+    "file",
+    "http",
+    "https",
+    "mailto",
+    "vscode",
+    "vscode-insiders",
+    "docker-desktop"
+  ],
+  "files.autoSave": "afterDelay",
+  "editor.formatOnPaste": true,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "gitlens.codeLens.enabled": false,
   "remote.downloadExtensionsLocally": true,
   "bracketPairColorizer.depreciation-notice": false
+  // "python.linting.flake8Args": ["--ignore=E501,E402"]
 }
-
 // 参考
 // https://qiita.com/sensuikan1973/items/74cf5383c02dbcd82234 // VSCode全般
 // https://qiita.com/hakshu/items/98ed12c32da97474b68d // Ruby関連
