@@ -27,7 +27,7 @@
     "FIG_NEW_SESSION": "1"
   },
   "editor.accessibilitySupport": "on",
-  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
   "explorer.confirmDelete": false,
   "workbench.editor.tabSizing": "shrink",
   "workbench.editor.openPositioning": "last",
