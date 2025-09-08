@@ -1,7 +1,10 @@
 *
 
+!karabiner/
 !karabiner/*
 .config/karabiner/automatic_backups
 
+!fish/
 !fish/*
+!zsh/
 !zsh/*
