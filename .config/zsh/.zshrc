@@ -30,6 +30,9 @@ COMPLETION_DIR=${DOT_ZSH_DIR}/completion
 
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
+# /completion ディレクトリがなければ作成
+mkdir -p ${COMPLETION_DIR}
+
 if [ ! -e ${COMPLETION_DIR}/git-completion.bash ]; then
     curl -o ${COMPLETION_DIR}/git-completion.bash https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash
 fi

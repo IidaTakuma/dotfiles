@@ -113,7 +113,10 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "gitlens.codeLens.enabled": false,
   "remote.downloadExtensionsLocally": true,
-  "bracketPairColorizer.depreciation-notice": false
+  "bracketPairColorizer.depreciation-notice": false,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "accessibility.signalOptions.volume": 0,
+  "workbench.sideBar.location": "right"
   // "python.linting.flake8Args": ["--ignore=E501,E402"]
 }
 // 参考
