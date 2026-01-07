@@ -76,3 +76,9 @@ ZSH_THEME_GIT_PROMPT_STASHED="%{$fg[blue]%}⚑ "
 ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[green]%}✔ "
 
 PS1=$'\n%F{green}%~%f$(gitprompt)\n%F{cyan}❯ %f'
+
+# bun completions
+[ -s "/Users/iida-takuma/.bun/_bun" ] && source "/Users/iida-takuma/.bun/_bun"
+
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"

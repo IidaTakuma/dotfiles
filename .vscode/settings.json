@@ -74,7 +74,8 @@
   },
   "[github-actions-workflow]": {
     "editor.insertSpaces": true,
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "redhat.vscode-yaml"
   },
   "editor.inlineSuggest.enabled": true,
   "github.copilot.enable": {
@@ -116,7 +117,13 @@
   "bracketPairColorizer.depreciation-notice": false,
   "github.copilot.nextEditSuggestions.enabled": true,
   "accessibility.signalOptions.volume": 0,
-  "workbench.sideBar.location": "right"
+  "workbench.sideBar.location": "right",
+  "[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  }
   // "python.linting.flake8Args": ["--ignore=E501,E402"]
 }
 // 参考
